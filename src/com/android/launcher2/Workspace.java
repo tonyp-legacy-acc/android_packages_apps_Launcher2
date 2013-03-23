@@ -2327,12 +2327,7 @@ public class Workspace extends SmoothPagedView
                         mTargetCell, resultSpan, CellLayout.MODE_ON_DROP);
 
                 boolean foundCell = mTargetCell[0] >= 0 && mTargetCell[1] >= 0;
-
-                // if the widget resizes on drop, or the sdk level is less than JBMR1, then we
-                // need to update the size.
-                if (foundCell && (cell instanceof AppWidgetHostView) &&
-                        (resultSpan[0] != item.spanX || resultSpan[1] != item.spanY ||
-                        Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1)) {
+                if (foundCell && (resultSpan[0] != item.spanX || resultSpan[1] != item.spanY)) {
                     resizeOnDrop = true;
                     item.spanX = resultSpan[0];
                     item.spanY = resultSpan[1];
@@ -3141,7 +3136,6 @@ public class Workspace extends SmoothPagedView
             }
 
             final ItemInfo item = (ItemInfo) d.dragInfo;
-            boolean updateWidgetSize = Build.VERSION.SDK_INT <= Build.VERSION_CODES.JELLY_BEAN;
             if (findNearestVacantCell) {
                 int minSpanX = item.spanX;
                 int minSpanY = item.spanY;
@@ -3153,10 +3147,6 @@ public class Workspace extends SmoothPagedView
                 mTargetCell = cellLayout.createArea((int) mDragViewVisualCenter[0],
                         (int) mDragViewVisualCenter[1], minSpanX, minSpanY, info.spanX, info.spanY,
                         null, mTargetCell, resultSpan, CellLayout.MODE_ON_DROP_EXTERNAL);
-
-                if (resultSpan[0] != item.spanX || resultSpan[1] != item.spanY) {
-                    updateWidgetSize = true;
-                }
                 item.spanX = resultSpan[0];
                 item.spanY = resultSpan[1];
             }
@@ -3186,13 +3176,6 @@ public class Workspace extends SmoothPagedView
             };
             View finalView = pendingInfo.itemType == LauncherSettings.Favorites.ITEM_TYPE_APPWIDGET
                     ? ((PendingAddWidgetInfo) pendingInfo).boundWidget : null;
-
-            if (finalView instanceof AppWidgetHostView && updateWidgetSize) {
-                AppWidgetHostView awhv = (AppWidgetHostView) finalView;
-                AppWidgetResizeFrame.updateWidgetSizeRanges(awhv, mLauncher, item.spanX,
-                        item.spanY);
-            }
-
             int animationStyle = ANIMATE_INTO_POSITION_AND_DISAPPEAR;
             if (pendingInfo.itemType == LauncherSettings.Favorites.ITEM_TYPE_APPWIDGET &&
                     ((PendingAddWidgetInfo) pendingInfo).info.configure != null) {
