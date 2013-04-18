@@ -111,4 +111,73 @@
     <string name="custom_workspace_cling_description_1" msgid="6875529190849858047"></string>
     <string name="custom_workspace_cling_title_2" msgid="5516006164661020362"></string>
     <string name="custom_workspace_cling_description_2" msgid="2758258454975288377"></string>
+
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Versteckte Apps</string>
+    <string name="menu_hidden_apps_delete">Zurücksetzen</string>
+
+    <!-- Preferences -->
+    <string name="actions_title">Aktion auswählen</string>
+    <string name="preferences_title">Launcher-Einstellungen</string>
+    <string name="launcher_settings_title">Launcher-Einstellungen</string>
+
+    <!-- Homescreen -->
+    <string name="preferences_interface_homescreen_title">Homescreen</string>
+    <string name="preferences_interface_homescreen_summary">Seiten und Hintergründe</string>
+    <string name="preferences_interface_homescreen_general_category">Allgemein</string>
+    <string name="preferences_interface_homescreen_general_grid_title">Rastergröße</string>
+    <string name="preferences_interface_homescreen_general_grid_summary">Anzahl der für Icons verfügbaren Reihen / Spalten</string>
+    <string name="preferences_interface_homescreen_general_grid_rows_title">Reihen</string>
+    <string name="preferences_interface_homescreen_general_grid_columns_title">Spalten</string>
+    <string name="preferences_interface_homescreen_general_screens_title">Seitenzahl</string>
+    <string name="preferences_interface_homescreen_general_screens_summary">Anzahl der verwendbaren und wechselbaren Seiten für Icons und Widgets</string>
+    <string name="preferences_interface_homescreen_general_default_screen_title">Standardseite</string>
+    <string name="preferences_interface_homescreen_general_default_screen_summary">Aktive Seite nach Neustart des Geräts</string>
+    <string name="preferences_interface_homescreen_general_stretch_screens_title">Seiten strecken</string>
+    <string name="preferences_interface_homescreen_general_stretch_screens_summary">Streckt die Seiten um den Bildschirm zu füllen</string>
+    <string name="preferences_interface_homescreen_general_search_title">Suchleiste</string>
+    <string name="preferences_interface_homescreen_general_search_summary">Dauerhafte Anzeige der Suchleiste</string>
+    <string name="preferences_interface_homescreen_general_hide_icon_labels_title">Beschriftung nicht anzeigen</string>
+    <string name="preferences_interface_homescreen_general_hide_icon_labels_summary">Beschriftung unterhalb der Icons nicht anzeigen</string>
+    <string name="preferences_interface_homescreen_indicator_category">Seitenindikator</string>
+    <string name="preferences_interface_homescreen_indicator_enable_title">Anzeigen</string>
+    <string name="preferences_interface_homescreen_indicator_enable_summary">Seitenindikator anzeigen</string>
+    <string name="preferences_interface_homescreen_indicator_fade_title">Automatisch ausblenden</string>
+    <string name="preferences_interface_homescreen_indicator_fade_summary">Indikator nach Seitenwechsel ausblenden</string>
+    <string name="preferences_interface_homescreen_indicator_position_title">Position des Indikators</string>
+    <string name="preferences_interface_homescreen_indicator_position_summary">Bestimmt, wo der Indikator angezeigt wird</string>
+
+    <!-- Drawer -->
+    <string name="preferences_interface_drawer_title">Apps</string>
+    <string name="preferences_interface_drawer_summary">Apps und Widgets Übersicht</string>
+    <string name="preferences_interface_drawer_hidden_apps_title">Versteckte Apps</string>
+    <string name="preferences_interface_drawer_hidden_apps_summary">Versteckt Apps in der Übersicht</string>
+    <string name="preferences_interface_drawer_widgets_category">Widget-Seiten</string>
+    <string name="preferences_interface_drawer_widgets_join_apps_title">Mit App-Seiten verbinden</string>
+    <string name="preferences_interface_drawer_widgets_join_apps_summary">Blättern auch zwischen App- und Widget-Seiten</string>
+    <string name="preferences_interface_drawer_indicator_category">Seitenindikator</string>
+    <string name="preferences_interface_drawer_indicator_enable_title">Anzeigen</string>
+    <string name="preferences_interface_drawer_indicator_enable_summary">Seitenindikator anzeigen</string>
+    <string name="preferences_interface_drawer_indicator_fade_title">Automatisch ausblenden</string>
+    <string name="preferences_interface_drawer_indicator_fade_summary">Indikator nach Seitenwechsel ausblenden</string>
+    <string name="preferences_interface_drawer_indicator_position_title">Position des Indikators</string>
+    <string name="preferences_interface_drawer_indicator_position_summary">Bestimmt, wo der Indikator angezeigt wird</string>
+
+    <!-- Dock -->
+    <string name="preferences_interface_dock_title">Dock</string>
+    <string name="preferences_interface_dock_enabled_title">Dock anzeigen</string>
+    <string name="preferences_interface_dock_enabled_summary">Zeit den Dock unterhalb des Homescreens</string>
+    <string name="preferences_interface_dock_pages_title">Seiten</string>
+    <string name="preferences_interface_dock_pages_summary">Anzahl der Seiten im Dock</string>
+    <string name="preferences_interface_dock_default_page_title">Standardseite</string>
+    <string name="preferences_interface_dock_default_page_summary">Standardseite auswählen</string>
+    <string name="preferences_interface_dock_icons_title">Horizontale Icons</string>
+    <string name="preferences_interface_dock_icons_summary">Anzahl der horizontalen Icons im Dock</string>
+    <string name="preferences_interface_dock_icons_vertical_title">Vertikale Icons</string>
+    <string name="preferences_interface_dock_icons_vertical_summary">Anzahl der vertikalen Icons im Dock</string>
+    <string name="preferences_interface_dock_icon_scale_title">Icon Größe</string>
+    <string name="preferences_interface_dock_icon_scale_summary">Größe der Icons im Dock</string>
+    <string name="preferences_interface_dock_divider_title">Dock Abtrennung anzeigen</string>
+    <string name="preferences_interface_dock_divider_summary">Abtrennung zwischen Homescreen und Dock anzeigen</string>
+    
 </resources>
