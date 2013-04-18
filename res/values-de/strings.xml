@@ -113,7 +113,7 @@
     <string name="custom_workspace_cling_description_2" msgid="2758258454975288377"></string>
 
     <!-- Hidden apps -->
-    <string name="hidden_apps_title">Versteckte Apps</string>
+    <string name="hidden_apps_title">Ausgeblendete Apps</string>
     <string name="menu_hidden_apps_delete">Zurücksetzen</string>
 
     <!-- Preferences -->
@@ -145,13 +145,13 @@
     <string name="preferences_interface_homescreen_indicator_fade_title">Automatisch ausblenden</string>
     <string name="preferences_interface_homescreen_indicator_fade_summary">Indikator nach Seitenwechsel ausblenden</string>
     <string name="preferences_interface_homescreen_indicator_position_title">Position des Indikators</string>
-    <string name="preferences_interface_homescreen_indicator_position_summary">Bestimmt, wo der Indikator angezeigt wird</string>
+    <string name="preferences_interface_homescreen_indicator_position_summary">Position des Indikators auf dem Bildschirm festlegen</string>
 
     <!-- Drawer -->
     <string name="preferences_interface_drawer_title">Apps</string>
     <string name="preferences_interface_drawer_summary">Apps und Widgets Übersicht</string>
-    <string name="preferences_interface_drawer_hidden_apps_title">Versteckte Apps</string>
-    <string name="preferences_interface_drawer_hidden_apps_summary">Versteckt Apps in der Übersicht</string>
+    <string name="preferences_interface_drawer_hidden_apps_title">Ausgeblendete Apps</string>
+    <string name="preferences_interface_drawer_hidden_apps_summary">Apps von der Übersicht ausblenden</string>
     <string name="preferences_interface_drawer_widgets_category">Widget-Seiten</string>
     <string name="preferences_interface_drawer_widgets_join_apps_title">Mit App-Seiten verbinden</string>
     <string name="preferences_interface_drawer_widgets_join_apps_summary">Blättern auch zwischen App- und Widget-Seiten</string>
@@ -161,12 +161,12 @@
     <string name="preferences_interface_drawer_indicator_fade_title">Automatisch ausblenden</string>
     <string name="preferences_interface_drawer_indicator_fade_summary">Indikator nach Seitenwechsel ausblenden</string>
     <string name="preferences_interface_drawer_indicator_position_title">Position des Indikators</string>
-    <string name="preferences_interface_drawer_indicator_position_summary">Bestimmt, wo der Indikator angezeigt wird</string>
+    <string name="preferences_interface_drawer_indicator_position_summary">Position des Indikators auf dem Bildschirm festlegen</string>
 
     <!-- Dock -->
     <string name="preferences_interface_dock_title">Dock</string>
     <string name="preferences_interface_dock_enabled_title">Dock anzeigen</string>
-    <string name="preferences_interface_dock_enabled_summary">Zeit den Dock unterhalb des Homescreens</string>
+    <string name="preferences_interface_dock_enabled_summary">Zeigt den Dock unterhalb des Homescreens</string>
     <string name="preferences_interface_dock_pages_title">Seiten</string>
     <string name="preferences_interface_dock_pages_summary">Anzahl der Seiten im Dock</string>
     <string name="preferences_interface_dock_default_page_title">Standardseite</string>
